@@ -1,0 +1,13 @@
+x = input("")
+
+
+def func1234():
+    y = x.__reversed__()
+
+    if x == y:
+        print(True)
+    else:
+        print(False)
+
+
+print(func1234())
